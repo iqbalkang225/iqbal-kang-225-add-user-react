@@ -1,0 +1,23 @@
+.container{
+   width: 85vw;
+    max-width: 1200px;
+    margin: 3rem auto;
+}
+
+.users-list{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
+}
+
+@media screen and (min-width: 800px) {
+    .container{
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .container{
+        width: 50vw;
+    }
+}

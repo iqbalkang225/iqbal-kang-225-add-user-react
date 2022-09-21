@@ -1,0 +1,9 @@
+.border{
+    border: 1px solid #ddd;
+    margin: .6rem;
+}
+
+.border h3{
+    margin: 0;
+    padding: .3rem;
+}
